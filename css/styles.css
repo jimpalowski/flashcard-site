@@ -2,10 +2,16 @@ h2 {
   text-align: center;
 }
 
+h1{
+  text-align: center;
+}
+
 p {
   text-align: left;
   float: left;
-}
+    text-shadow: 1px 1px lightgrey;
+    font-weight: bold;
+  }
 
 div.col-md-9{
   display: none;
@@ -14,10 +20,27 @@ div.col-md-9{
 
 div.col-md-3{
   cursor: pointer;
-  color: #0088cc;
+  color: #260156;
 }
 
 div.col-md-3:hover{
   text-decoration: underline;
+
+}
+
+.row{
+  margin-top: 40px;
+}
+
+
+body{
+  background-image: url(https://wallpapertag.com/wallpaper/full/1/2/e/237654-school-wallpaper-2732x1799-laptop.jpg);
+  background-repeat: no-repeat;
+
+}
+
+img{
+  width:60%;
+  height: auto;
 
 }

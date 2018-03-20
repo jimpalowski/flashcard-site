@@ -1,80 +1,76 @@
 $(document).ready(function() {
 $(".view").click(function() {
-  $("#Java").slideToggle();
+  $("#Java").fadeToggle();
 });
 $(".Operate").click(function(){
-  $("#Operate").slideToggle();
+  $("#Operate").fadeToggle();
 });
 $(".Vary").click(function(){
-  $("#Variable").slideToggle();
-});
-
-$(".Vary").click(function(){
-  $("#Variable").slideToggle();
+  $("#Variable").fadeToggle();
 
 });
 $(".VNC").click(function(){
-  $("#VNC").slideToggle();
+  $("#VNC").fadeToggle();
 });
 
 $(".Func").click(function(){
-  $("#Function").slideToggle();
+  $("#Function").fadeToggle();
 });
 
 $(".Method").click(function(){
-  $("#Method").slideToggle();
+  $("#Method").fadeToggle();
 });
 
 $(".Argument").click(function(){
-  $("#Argument").slideToggle();
+  $("#Argument").fadeToggle();
 });
 
 $(".Para").click(function(){
-  $("#Parameter").slideToggle();
+  $("#Parameter").fadeToggle();
 });
 
 $(".Return").click(function(){
-  $("#Return").slideToggle();
+  $("#Return").fadeToggle();
 });
 
 $(".Chain").click(function(){
-  $("#Chaining").slideToggle();
+  $("#Chaining").fadeToggle();
 });
 
 $(".String").click(function(){
-  $("#String").slideToggle();
+  $("#String").fadeToggle();
 });
 
 $(".Bool").click(function(){
-  $("#Bool").slideToggle();
+  $("#Bool").fadeToggle();
 });
 
 $(".UNF").click(function(){
-  $("#Undefined").slideToggle();
+  $("#Undefined").fadeToggle();
 });
 
 $(".NaN").click(function(){
-  $("#NaN").slideToggle();
+  $("#NaN").fadeToggle();
 });
 
 $(".Escape").click(function(){
-  $("#Escape").slideToggle();
+  $("#Escape").fadeToggle();
 });
 
 $(".Alert").click(function(){
-  $("#Alert").slideToggle();
+  $("#Alert").fadeToggle();
 });
 
 $(".Comment").click(function(){
-  $("#Comment").slideToggle();
+  $("#Comment").fadeToggle();
 });
 
 $(".JQuery").click(function(){
-  $("#JQuery").slideToggle();
+  $("#JQuery").fadeToggle();
 });
 
 
 $(".Attribute").click(function(){
-  $("#Attribute").slideToggle();
+  $("#Attribute").fadeToggle();
 });
 });
