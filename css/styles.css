@@ -1,9 +1,23 @@
 h2 {
-  background-color: red;
   text-align: center;
 }
 
 p {
   text-align: left;
   float: left;
+}
+
+div.col-md-9{
+  display: none;
+
+}
+
+div.col-md-3{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+div.col-md-3:hover{
+  text-decoration: underline;
+
 }
